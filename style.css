@@ -1,0 +1,170 @@
+/*Empieza CSS index*/
+.body-index{
+   background-color: #cca9dd; 
+}
+.Cabecera h1{
+    text-align: center;
+    font-size: 50px;
+}
+.Minijuegos{
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Dados{
+    width: 35%;
+    text-align: center;
+    background-color: aqua;
+    border: solid 1px rgb(0, 0, 0);
+    margin-bottom:50px;
+    margin-left: 130px;
+    padding-bottom: 8px;
+}
+.Dados button{
+    border: none;
+    background-color: black;
+    padding: 7px;
+    color: white;
+    border-radius:  4px;
+}
+.Tablas{
+    width: 35%;
+    text-align: center;
+    background-color: aquamarine;
+    border: solid 1px rgb(0, 0, 0);
+    margin-bottom: 50px;
+    margin-right: 130px;
+    padding-bottom: 8px;
+}
+.Tablas button{
+    border: none;
+    background-color: black;
+    padding: 7px;
+    color: white;
+    border-radius:  4px;
+}
+.Frutas{
+    width: 35%;
+    text-align: center;
+    background-color: burlywood;
+    border: solid 1px rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-left: 130px;
+    padding-bottom: 8px;
+}
+.Frutas button{
+    border: none;
+    background-color: black;
+    padding: 7px;
+    color: white;
+    border-radius:  4px;
+}
+.Numeros{
+    width: 35%;
+    text-align: center;
+    background-color: cadetblue;
+    border: solid 1px rgb(0, 0, 0);
+    margin-bottom: 20px;
+    margin-right: 130px;
+    padding-bottom: 8px;
+}
+.Numeros button{
+    border: none;
+    background-color: black;
+    padding: 7px;
+    color: white;
+    border-radius:  4px;
+}
+/*Termina CSS index*/
+/*Inicia CSS Dado*/
+.h1-dado h1{
+    text-align: center;
+}
+.nombres-jugadores{
+    display: flex;
+    text-align: center;
+}
+.nombres-jugadores p{
+    padding: 15px;
+    width: 50%;
+}
+.boton-iniciar{
+    text-align: center;
+}
+.boton-iniciar button{
+    border: none;
+    background-color: black;
+    padding: 7px;
+    color: white;
+    border-radius:  4px;
+}
+.div-medio{
+display: flex;
+align-items: center;
+text-align: center;
+margin:40px 0px 0px 0px;
+}
+.jugador-actual{
+width: 50%;
+}
+.lanzar-dado{
+    width: 50%;
+}
+.jugador-actual p{
+    font-size: 25px;
+}
+.lanzar-dado p{
+    font-size: 25px;
+}
+.lanzar-dado button{
+    border: none;
+    background-color: black;
+    padding: 7px;
+    color: white;
+    border-radius:  4px;
+}
+.resultado{
+    align-items: center;
+    text-align: center;
+}
+.resultado p{
+    font-size: 20px;
+}
+.boton-reiniciar button{
+    border: none;
+    background-color: black;
+    padding: 7px;
+    color: white;
+    border-radius:  4px;
+}
+/*Termina CSS Dado*/
+/*Inicia CSS Tablas*/
+.h1-tablas h1{
+    text-align: center;
+}
+.multiplicacion{
+    text-align: center;
+    margin: 30px;
+}
+.multiplicacion button{
+    margin: 10px;
+    border: none;
+    background-color: coral;
+    padding: 7px;
+    color: rgb(0, 0, 0);
+    border-radius:  4px;
+}
+/*Termina CSS Tablas*/
+/*Inicia CSS Frutas*/
+.fruta-lugar{
+    align-items: center;
+    text-align: center;
+}
+/*Termina CSS Frutas*/
+/*Inicia CSS Numeros*/
+.lugar-numeros{
+    align-items: center;
+    text-align: center;
+}
+/*Termina CSS Numeros*/

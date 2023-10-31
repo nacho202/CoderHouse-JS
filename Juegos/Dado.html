@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Dado para 2 Jugadores</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- INICIO JUEGO DADOS -->
+    <div class="h1-dado">
+    <h1>Simulador de Dado para 2 Jugadores</h1>
+    </div>
+    <div id="nombres" class="nombres-jugadores">
+        <p>Nombre del Jugador 1: <input type="text" id="nombreJugador1"></p>
+        <p>Nombre del Jugador 2: <input type="text" id="nombreJugador2"></p>
+    </div>
+    <div class="boton-iniciar">
+    <button id="iniciarJuego">Iniciar Juego</button>
+    </div>
+    <div class="div-medio">
+    <div class="jugador-actual">
+    <p>Jugador Actual: <span id="jugadorActual"></span></p>
+    </div>
+    <div class="lanzar-dado">
+    <p>Haz clic en el botón para lanzar un dado:</p>
+    <button id="lanzarDado" disabled>Lanzar Dado</button>
+    </div>
+    </div>
+<div class="resultado">
+    <div id="resultado"></div>
+    <p>Puntaje <span id="nombreJugador1Label"></span>:</p>
+    <div id="puntajeJugador1">0</div>
+    <p>Puntaje <span id="nombreJugador2Label"></span>:</p>
+    <div id="puntajeJugador2">0</div>
+    </div>
+    <div class="boton-reiniciar">
+    <button id="reiniciar" style="display: none;">Reiniciar Juego</button>
+    </div>
+    <script src="Dado.js"></script>
+</body>
+</html>
