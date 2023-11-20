@@ -49,7 +49,7 @@
     text-align: center;
     background-color: burlywood;
     border: solid 1px rgb(0, 0, 0);
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-left: 130px;
     padding-bottom: 8px;
 }
@@ -65,11 +65,43 @@
     text-align: center;
     background-color: cadetblue;
     border: solid 1px rgb(0, 0, 0);
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-right: 130px;
     padding-bottom: 8px;
 }
 .Numeros button{
+    border: none;
+    background-color: black;
+    padding: 7px;
+    color: white;
+    border-radius:  4px;
+}
+.Trivia{
+    width: 35%;
+    text-align: center;
+    background-color: rgb(0, 255, 34);
+    border: solid 1px rgb(0, 0, 0);
+    margin-bottom:50px;
+    margin-left: 130px;
+    padding-bottom: 8px;
+}
+.Trivia button{
+    border: none;
+    background-color: black;
+    padding: 7px;
+    color: white;
+    border-radius:  4px;
+}
+.Ahorcado{
+    width: 35%;
+    text-align: center;
+    background-color: rgb(95, 101, 160);
+    border: solid 1px rgb(0, 0, 0);
+    margin-bottom: 50px;
+    margin-right: 130px;
+    padding-bottom: 8px;
+}
+.Ahorcado button{
     border: none;
     background-color: black;
     padding: 7px;

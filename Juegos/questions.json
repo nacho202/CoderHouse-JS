@@ -1,0 +1,53 @@
+[
+    {
+        "question": "¿Quién es el jugador latino que ha anotado más goles en la historia de los mundiales?",
+        "correct_answer": "Lionel Messi",
+        "incorrect_answers": ["Pele", "Ronaldo Nazario", "Diego Maradona"]
+    },
+    {
+        "question": "¿En el Mundial de México en 1986, el argentino Diego Maradona anotó un gol con la mano, que se convirtió en una leyenda en el fútbol y es conocido como “la mano de Dios”. ¿Contra qué equipo marcó ese famoso tanto??",
+        "correct_answer": "Inglaterra",
+        "incorrect_answers": ["Italia", "Alemania", "Brasil"]
+    },
+    {
+        "question": "El goleador del primer Mundial de fútbol, disputado en 1930 en Uruguay, fue…",
+        "correct_answer": "Guillermo Stábile",
+        "incorrect_answers": ["Bigode", "Alcides Edgardo Ghiggia", "Obdulio Varela"]
+    },
+    {
+        "question": "¿Cómo se le llamó a la famosa victoria de Uruguay sobre Brasil en la final del torneo mundialista de 1950, cuando los charrúas obtuvieron su segundo título mundial?",
+        "correct_answer": "El Maracanazo",
+        "incorrect_answers": ["El Chutazo", "El triunfo del siglo", "El Matabrasileirao"]
+    },
+    {
+        "question": "¿Cuál es el jugador latino que tiene más participaciones en el mundial?",
+        "correct_answer": "Lionel Messi",
+        "incorrect_answers": ["Pelé", "Hugo Sánchez", "Javier Zanetti"]
+    },
+    {
+        "question": "¿Dónde se disputó la Copa Mundial de 1998?",
+        "correct_answer": "Francia",
+        "incorrect_answers": ["Italia", "Estados Unidos", "Alemania"]
+    },
+    {
+        "question": "¿Quién fue el jugador que marcó el gol que le dio el triunfo a España en la final de la Copa del Mundo del 2010 en Sudáfrica?",
+        "correct_answer": "Andrés Iniesta",
+        "incorrect_answers": ["Raúl González", "David Villa", "Sergio Ramos"]
+    },
+    {
+        "question": "La selección de fútbol de Cuba participó en una Copa del Mundo. ¿Sabes en qué año fue?",
+        "correct_answer": "Francia 1938",
+        "incorrect_answers": ["Uruguay 1930", "Suiza 1954", "México 1970"]
+    },
+    {
+        "question": "¿Cuál es la selección que más finales de la Copa Mundial ha disputado?",
+        "correct_answer": "Alemania",
+        "incorrect_answers": ["Argentina", "Brasil", "Italia"]
+    },
+    {
+        "question": "¿Quién fue el jugador Balón de Oro del Mundial de Brasil 2014?",
+        "correct_answer": "Lionel Messi",
+        "incorrect_answers": ["James Rodríguez", "Toni Kroos", "Neymar Jr."]
+    }
+    
+]
