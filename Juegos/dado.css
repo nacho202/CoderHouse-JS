@@ -1,0 +1,67 @@
+/*Inicia CSS Dado*/
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #49708a;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: black;
+}
+
+.h1-dado {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nombres-jugadores, .lanzar-dado, .resultado {
+    background-color: #88abc2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.nombres-jugadores p, .lanzar-dado p, .resultado p {
+    margin: 10px 0;
+}
+
+.boton-iniciar, .div-medio, .boton-reiniciar {
+    background-color: #caff42;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.div-medio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#jugadorActual {
+    padding-right: 10px;
+}
+
+#lanzarDado, #reiniciar {
+    background-color: #ebf7f8;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#lanzarDado:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+/*Termina CSS Dado*/

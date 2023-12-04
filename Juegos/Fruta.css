@@ -1,14 +1,15 @@
+/* Estilos generales */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f9f9f9;
+    background-color: #f5f5f5;
     color: #333;
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
-#question-container {
-    max-width: 600px;
+.fruta-lugar {
+    max-width: 400px;
     margin: 50px auto;
     background-color: #fff;
     padding: 20px;
@@ -17,33 +18,41 @@ body {
 }
 
 h1 {
+    color: #3498db;
+}
+
+/* Estilos para el juego de adivinar frutas */
+#frutaOculta {
+    font-weight: bold;
     color: #e74c3c;
-    font-size: 20px; 
 }
 
-#options-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
+#intentosRestantes {
+    color: #2ecc71;
 }
 
-button {
+#letraIngresada {
+    padding: 8px;
+    margin: 10px 0;
+}
+
+#adivinarLetraBoton,
+#reiniciarJuegoBoton {
     background-color: #3498db;
     color: #fff;
-    padding: 15px 50px; 
+    padding: 8px 16px;
     border: none;
     cursor: pointer;
     margin: 8px;
     border-radius: 4px;
-    font-size: 15px; 
 }
 
-button:hover {
+#adivinarLetraBoton:hover,
+#reiniciarJuegoBoton:hover {
     background-color: #2980b9;
 }
 
-#result {
+#mensajeResultado {
     margin-top: 20px;
     font-weight: bold;
     color: #e74c3c;
